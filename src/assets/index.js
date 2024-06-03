@@ -25,10 +25,17 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import noori from "./company/noori.svg";
+import pafex from "./company/pafex.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import real from "./projects/real.png";
+import cafe from "./projects/cafe.jpg";
+import weather from "./projects/weather.png";
+import namaz from "./projects/namaz.png";
+import face from "./projects/face.png";
+import profile from "./projects/profile.png";
+import saas from "./projects/Saas.png";
+import dalle from "./projects/dalle.png";
 
 export {
   logo,
@@ -39,7 +46,7 @@ export {
   github,
   menu,
   close,
-  css,
+  css,noori,
   docker,
   figma,
   git,
@@ -53,10 +60,16 @@ export {
   typescript,
   threejs,
   meta,
+  pafex,
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  real,
+  cafe,
+  weather,
+  dalle,
+  saas,
+  profile,
+  face,
+  namaz
 };

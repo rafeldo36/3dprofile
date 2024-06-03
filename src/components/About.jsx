@@ -49,11 +49,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+       I am a Software Engineering Student at Mumbai University. I enjoy UI designing, creating API's, problem-solving and coding. Always strive to bring 100% to the work I do. I have worked on technologies like Python, MongoDB, HTML5, CSS, JavaScript, ReactJS, Blockchain and MERN Stack during my bachelor's. I have 40 months of work experience as a Graphic Designer Freelancer which helped me strengthen my experience in Designing. I am passionate about developing complex applications and real time responsive webpages that solve real-world problems impacting millions of users.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
