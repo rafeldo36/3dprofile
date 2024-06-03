@@ -25,6 +25,8 @@ import {
   face,
   namaz,
   threejs,
+  live,
+  github
 } from "../assets";
 
 export const navLinks = [
@@ -214,6 +216,7 @@ const projects = [
       },
     ],
     image: saas,
+    logo: live,
     source_code_link: "https://tshirtjs.netlify.app/",
   },
   {
@@ -235,6 +238,7 @@ const projects = [
       },
     ],
     image: dalle,
+    logo: live,
     source_code_link: "https://nooriai.netlify.app/",
   },
   {
@@ -256,6 +260,7 @@ const projects = [
       },
     ],
     image: real,
+    logo: github,
     source_code_link: "https://github.com/rafeldo36/uyorooms/",
   },
   {
@@ -277,6 +282,7 @@ const projects = [
       },
     ],
     image: cafe,
+    logo: github,
     source_code_link: "https://github.com/rafeldo36/cafe-delight",
   },
   {
@@ -298,6 +304,7 @@ const projects = [
       },
     ],
     image: weather,
+    logo: live,
     source_code_link: "https://rafeldo36.github.io/weather/",
   },
   {
@@ -319,6 +326,7 @@ const projects = [
       },
     ],
     image: namaz,
+    logo: live,
     source_code_link: "https://rafeldo36.github.io/namaz/",
   },
   {
@@ -340,6 +348,7 @@ const projects = [
       },
     ],
     image: face,
+    logo: github,
     source_code_link: "https://github.com/rafeldo36/face-recognition-based-attendancy-system",
   },
   {
@@ -361,6 +370,7 @@ const projects = [
       },
     ],
     image: profile,
+    logo: live,
     source_code_link: "https://rafeldo36.github.io/profile/",
   },
 ];
