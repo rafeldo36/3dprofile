@@ -260,8 +260,8 @@ const projects = [
       },
     ],
     image: real,
-    logo: github,
-    source_code_link: "https://github.com/rafeldo36/uyorooms/",
+    logo: live,
+    source_code_link: "https://uyorooms.netlify.app/",
   },
   {
     name: "Online Cafe",
