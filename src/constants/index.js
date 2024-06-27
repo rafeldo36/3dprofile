@@ -25,6 +25,8 @@ import {
   face,
   namaz,
   threejs,
+  iphone,
+  imaginify,
   live,
   github
 } from "../assets";
@@ -285,28 +287,28 @@ const projects = [
     logo: github,
     source_code_link: "https://github.com/rafeldo36/cafe-delight",
   },
-  {
-    name: "Weather Info",
-    description:
-      "Weather Info using HTML,CSS,JavaScript and Weather API",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Weather API",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: weather,
-    logo: live,
-    source_code_link: "https://rafeldo36.github.io/weather/",
-  },
+  // {
+  //   name: "Weather Info",
+  //   description:
+  //     "Weather Info using HTML,CSS,JavaScript and Weather API",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Weather API",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: weather,
+  //   logo: live,
+  //   source_code_link: "https://rafeldo36.github.io/weather/",
+  // },
   {
     name: "Namaz Time Indicator",
     description:
@@ -372,6 +374,50 @@ const projects = [
     image: profile,
     logo: live,
     source_code_link: "https://rafeldo36.github.io/profile/",
+  },
+  {
+    name: "Imaginify",
+    description:
+      "A fully-responsive interactive website using NEXT.JS, TypeScript and Cloudinary AI for manipulating the image with the help of AI and customize it using features like image restore, generative fill, object remove, object recolor, and background remove, also user can share it on the community and one can download it",
+    tags: [
+      {
+        name: "NEXT.JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Cloudinary AI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: imaginify,
+    logo: live,
+    source_code_link: "https://imaginify-kappa-two.vercel.app/",
+  },
+  {
+    name: "Apple iPhone 15 Pro",
+    description:
+      "A fully-responsive interactive website using React.JS, GSAP animations and React Three Fiber for representing the new Apple iPhone 15 Pro with its 3d Model for closer view and titanium look and different color perception also we have implemented Sentry for optimizing the performance and to resolve issues.",
+    tags: [
+      {
+        name: "React.JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GSAP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React Three Fiber",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: iphone,
+    logo: live,
+    source_code_link: "https://1phone15.netlify.app/",
   },
 ];
 

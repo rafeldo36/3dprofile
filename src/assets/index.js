@@ -37,6 +37,8 @@ import face from "./projects/face.png";
 import profile from "./projects/profile.png";
 import saas from "./projects/Saas.png";
 import dalle from "./projects/dalle.png";
+import iphone from "./projects/iphone.png";
+import imaginify from './projects/imaginify.png';
 
 export {
   logo,
@@ -73,5 +75,7 @@ export {
   saas,
   profile,
   face,
-  namaz
+  namaz,
+  iphone,
+  imaginify
 };
