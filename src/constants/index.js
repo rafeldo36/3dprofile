@@ -28,7 +28,7 @@ import {
   iphone,
   imaginify,
   live,
-  github
+  github,
 } from "../assets";
 
 export const navLinks = [
@@ -48,19 +48,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "MERN Stack Developer",
+    title: "MERN/MEAN Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Angular Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Node.JS Developer",
     icon: backend,
   },
   {
-    title: "Graphics Designer",
+    title: "React Developer",
     icon: creator,
   },
 ];
@@ -118,29 +118,43 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Graphic Designer",
-    company_name: "Noori",
+    title: "Frontend Web Developer",
+    company_name: "TechCharm",
     icon: noori,
     iconBg: "#E6DEDD",
-    date: "Jan 2020 - Present",
+    date: "Aug 2024 - Present",
     points: [
-      "Creating visually appealing graphics and layouts for web and print media using design software such as Adobe Creative Suite (Photoshop, Illustrator) & InkScape.",
-      "Collaborating with cross-functional teams including designers, product managers, and developers to create high-quality visual content.",
+      "Developed scalable applications using Angular, NgRx, and REST API integration, achieving a 20% improvement in data processing efficiency.",
+      "Implemented comprehensive state management with NgRx, enhancing component interaction across complex UI elements.",
+      "Lead developer in creating customer-focused Angular-based web applications",
+      "Provide technical mentorship and solutions to enhance team performance.",
+    ],
+  },
+  {
+    title: "Technical Lead",
+    company_name: "Pafex Courier & Cargo",
+    icon: pafex,
+    iconBg: "#E6DEDD",
+    date: "Nov 2023 - Aug 2024",
+    points: [
+      "Mentored junior developers, conducting code reviews and knowledge-sharing sessions to foster professional growth and skill enhancement.",
+      "Coordinated cross-functional teams, facilitating seamless collaboration between frontend, backend, and design teams to meet project deadlines effectively.",
       "Implementing design principles and ensuring visual consistency across different platforms and devices.",
       "Participating in design reviews and providing constructive feedback to other designers.",
     ],
   },
+
   {
-    title: "Full Stack Developer",
-    company_name: "Pafex Couriers & Cargo",
+    title: "Full Stack Developer Intern",
+    company_name: "Pafex Courier & Cargo",
     icon: pafex,
     iconBg: "#E6DEDD",
     date: "Jun 2023 - Nov 2023",
     points: [
-      "Developing and maintaining web applications using React.js, Node.js and other related technologies.",
+      "Built dynamic frontend interfaces with React.js and Tailwind CSS, ensuring seamless user experiences.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented RESTful APIs to facilitate efficient communication between the frontend and backend, optimizing data flow and reducing latency by 15%.",
+      "Designed and maintained MongoDB databases to ensure efficient data storage and retrieval, enhancing application performance",
     ],
   },
   // {
@@ -175,26 +189,26 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rafey proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    name: "Mudakkir Shaikh",
+    designation: "CEO",
+    company: "Pafex Co",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rafey does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    name: "Khalid Ansari",
+    designation: "Chairman",
+    company: "TechCharm India",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
       "After Rafey optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Amaan Shaikh",
+    designation: "GM",
+    company: "Pafex Co",
+    image: "https://randomuser.me/api/portraits/men/6.jpg",
   },
 ];
 
@@ -311,8 +325,7 @@ const projects = [
   // },
   {
     name: "Namaz Time Indicator",
-    description:
-      "Namaz Time Indicator using HTML,CSS,JavaScript and Salah API",
+    description: "Namaz Time Indicator using HTML,CSS,JavaScript and Salah API",
     tags: [
       {
         name: "html",
@@ -351,7 +364,8 @@ const projects = [
     ],
     image: face,
     logo: github,
-    source_code_link: "https://github.com/rafeldo36/face-recognition-based-attendancy-system",
+    source_code_link:
+      "https://github.com/rafeldo36/face-recognition-based-attendancy-system",
   },
   {
     name: "PortFolio",

@@ -26,7 +26,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import noori from "./company/noori.svg";
+import noori from "./company/noori.png";
 import pafex from "./company/pafex.png";
 
 import real from "./projects/real.png";
@@ -38,7 +38,7 @@ import profile from "./projects/profile.png";
 import saas from "./projects/Saas.png";
 import dalle from "./projects/dalle.png";
 import iphone from "./projects/iphone.png";
-import imaginify from './projects/imaginify.png';
+import imaginify from "./projects/imaginify.png";
 
 export {
   logo,
@@ -50,7 +50,8 @@ export {
   github,
   menu,
   close,
-  css,noori,
+  css,
+  noori,
   docker,
   figma,
   git,
@@ -77,5 +78,5 @@ export {
   face,
   namaz,
   iphone,
-  imaginify
+  imaginify,
 };
