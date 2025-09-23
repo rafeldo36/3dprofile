@@ -11,6 +11,7 @@ import {
   redux,
   tailwind,
   nodejs,
+  onelife,
   mongodb,
   git,
   figma,
@@ -118,11 +119,28 @@ const technologies = [
 
 const experiences = [
   {
+    title: "MEAN Stack Developer",
+    company_name: "Onelife Capital Advisors Limited",
+    icon: onelife,
+    iconBg: "#E6DEDD",
+    date: "Feb 2025 - Present",
+    points: [
+      "Develop and maintain dynamic web applications using Angular, Node.js, Express.js, and MongoDB within a modular and scalable architecture.",
+      "Upgrade and migrate existing applications to the latest Angular versions (up to Angular 19), ensuring performance optimization and compatibility.",
+      "Implement state management using NgRx, enhancing maintainability and application efficiency.",
+      "Design and integrate RESTful APIs with secure authentication and role-based access control.",
+      "Work closely with UI/UX teams to implement responsive designs with SCSS, Angular Material, and GSAP animations for modern, interactive interfaces.",
+"Set up and manage Linux Ubuntu servers with Nginx, handling deployments using FileZilla and PuTTY to ensure robust and secure hosting.",
+"Utilize Git/GitHub for version control, code reviews, and maintaining clean workflows.",
+"Collaborate with cross-functional teams to align technical implementation with business requirements."
+    ],
+  },
+  {
     title: "Frontend Web Developer",
     company_name: "TechCharm",
     icon: noori,
     iconBg: "#E6DEDD",
-    date: "Aug 2024 - Present",
+    date: "Aug 2024 - Feb 2025",
     points: [
       "Developed scalable applications using Angular, NgRx, and REST API integration, achieving a 20% improvement in data processing efficiency.",
       "Implemented comprehensive state management with NgRx, enhancing component interaction across complex UI elements.",
@@ -131,7 +149,7 @@ const experiences = [
     ],
   },
   {
-    title: "Technical Lead",
+    title: "Frontend Web Developer",
     company_name: "Pafex Courier & Cargo",
     icon: pafex,
     iconBg: "#E6DEDD",

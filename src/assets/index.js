@@ -28,7 +28,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import noori from "./company/noori.png";
 import pafex from "./company/pafex.png";
-
+import onelife from "./company/onelife.webp";
 import real from "./projects/real.png";
 import cafe from "./projects/cafe.jpg";
 import weather from "./projects/weather.png";
@@ -46,6 +46,7 @@ export {
   creator,
   mobile,
   web,
+  onelife,
   live,
   github,
   menu,
