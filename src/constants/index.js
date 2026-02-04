@@ -120,7 +120,7 @@ const technologies = [
 const experiences = [
   {
     title: "MEAN Stack Developer",
-    company_name: "Onelife Capital Advisors Limited",
+    company_name: "Dealmoney Commodities Private Limited",
     icon: onelife,
     iconBg: "#E6DEDD",
     date: "Feb 2025 - Present",
