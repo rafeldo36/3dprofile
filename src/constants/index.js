@@ -148,7 +148,7 @@ const experiences = [
       "Provide technical mentorship and solutions to enhance team performance.",
     ],
   },
-  {
+  /*{
     title: "Frontend Web Developer",
     company_name: "Pafex Courier & Cargo",
     icon: pafex,
@@ -174,7 +174,7 @@ const experiences = [
       "Implemented RESTful APIs to facilitate efficient communication between the frontend and backend, optimizing data flow and reducing latency by 15%.",
       "Designed and maintained MongoDB databases to ensure efficient data storage and retrieval, enhancing application performance",
     ],
-  },
+  },*/
   // {
   //   title: "Web Developer",
   //   company_name: "Shopify",
